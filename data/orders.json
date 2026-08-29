@@ -1,0 +1,5 @@
+{
+  "village_breakfast": {"requires": {"rice": 3, "egg": 1}, "coins": 64, "xp": 18},
+  "market_basket": {"requires": {"corn": 2, "tomato": 2}, "coins": 92, "xp": 24},
+  "bakery_delivery": {"requires": {"bread": 1, "milk": 1}, "coins": 115, "xp": 30}
+}

@@ -1,0 +1,21 @@
+{
+  "crops": {
+    "rice": {"name": "Rice", "seed_cost": 2, "sell": 8, "grow_seconds": 38, "xp": 7, "color": "#e9c94f"},
+    "corn": {"name": "Corn", "seed_cost": 4, "sell": 14, "grow_seconds": 55, "xp": 10, "color": "#f0b83d"},
+    "tomato": {"name": "Tomato", "seed_cost": 7, "sell": 23, "grow_seconds": 72, "xp": 14, "color": "#dc594b"},
+    "sugarcane": {"name": "Sugarcane", "seed_cost": 10, "sell": 34, "grow_seconds": 95, "xp": 19, "color": "#a8d86d"}
+  },
+  "products": {
+    "animal_feed": {"name": "Animal Feed", "inputs": {"rice": 2}, "seconds": 18, "sell": 20, "xp": 8, "unlock_level": 1},
+    "bread": {"name": "Rice Bread", "inputs": {"rice": 3}, "seconds": 28, "sell": 38, "xp": 14, "unlock_level": 3},
+    "butter": {"name": "Butter", "inputs": {"milk": 2}, "seconds": 34, "sell": 52, "xp": 18, "unlock_level": 5},
+    "palm_sugar": {"name": "Palm Sugar", "inputs": {"sugarcane": 3}, "seconds": 42, "sell": 82, "xp": 25, "unlock_level": 7}
+  },
+  "levels": [0, 45, 115, 210, 335, 500, 710, 970, 1280, 1650, 2100],
+  "plot_unlocks": [1, 1, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 8, 9],
+  "expansions": [
+    {"name": "Animal Meadow", "level": 3, "cost": 220},
+    {"name": "Production Village", "level": 5, "cost": 600},
+    {"name": "River Orchard", "level": 8, "cost": 1400}
+  ]
+}

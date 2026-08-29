@@ -1,0 +1,7 @@
+{
+  "name": "PhumFarm.Editor",
+  "rootNamespace": "PhumFarm.Editor",
+  "references": ["PhumFarm.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

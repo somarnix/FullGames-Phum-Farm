@@ -1,0 +1,9 @@
+{
+  "farmhouse": {"unlock_level": 1, "footprint": [4, 4]},
+  "barn": {"unlock_level": 1, "footprint": [3, 3], "capacity": 75},
+  "feed_mill": {"unlock_level": 1, "footprint": [3, 3]},
+  "bakery": {"unlock_level": 3, "footprint": [3, 3]},
+  "dairy": {"unlock_level": 5, "footprint": [3, 3]},
+  "sugar_mill": {"unlock_level": 7, "footprint": [3, 3]},
+  "market": {"unlock_level": 1, "footprint": [4, 3]}
+}

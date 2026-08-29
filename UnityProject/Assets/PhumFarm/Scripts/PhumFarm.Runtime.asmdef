@@ -1,0 +1,6 @@
+{
+  "name": "PhumFarm.Runtime",
+  "rootNamespace": "PhumFarm",
+  "references": ["UnityEngine.UI"],
+  "autoReferenced": true
+}

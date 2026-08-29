@@ -1,0 +1,4 @@
+{
+  "daily": [{"day": 1, "coins": 25}, {"day": 2, "coins": 40}, {"day": 3, "gems": 2}],
+  "level_up": {"coins_per_level": 50}
+}

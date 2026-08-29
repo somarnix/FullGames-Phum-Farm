@@ -1,0 +1,32 @@
+{
+  "crops": [
+    {"id":"rice","nameKey":"crop.rice","seedCost":2,"sellPrice":8,"growSeconds":38,"xp":7,"unlockLevel":1,"color":"E9C94F"},
+    {"id":"corn","nameKey":"crop.corn","seedCost":4,"sellPrice":14,"growSeconds":55,"xp":10,"unlockLevel":2,"color":"F0B83D"},
+    {"id":"tomato","nameKey":"crop.tomato","seedCost":7,"sellPrice":23,"growSeconds":72,"xp":14,"unlockLevel":4,"color":"DC594B"},
+    {"id":"sugarcane","nameKey":"crop.sugarcane","seedCost":10,"sellPrice":34,"growSeconds":95,"xp":19,"unlockLevel":6,"color":"A8D86D"}
+  ],
+  "products": [
+    {"id":"animal_feed","nameKey":"product.animal_feed","seconds":18,"sellPrice":20,"xp":8,"unlockLevel":1,"inputs":[{"itemId":"rice","quantity":2}]},
+    {"id":"bread","nameKey":"product.bread","seconds":28,"sellPrice":38,"xp":14,"unlockLevel":3,"inputs":[{"itemId":"rice","quantity":3}]},
+    {"id":"butter","nameKey":"product.butter","seconds":34,"sellPrice":52,"xp":18,"unlockLevel":5,"inputs":[{"itemId":"milk","quantity":2}]},
+    {"id":"palm_sugar","nameKey":"product.palm_sugar","seconds":42,"sellPrice":82,"xp":25,"unlockLevel":7,"inputs":[{"itemId":"sugarcane","quantity":3}]}
+  ],
+  "animals": [
+    {"id":"chicken","productId":"egg","feedQuantity":1,"seconds":40,"unlockLevel":2},
+    {"id":"cow","productId":"milk","feedQuantity":1,"seconds":65,"unlockLevel":4},
+    {"id":"buffalo","productId":"milk","feedQuantity":2,"seconds":80,"unlockLevel":6},
+    {"id":"pig","productId":"truffle","feedQuantity":2,"seconds":90,"unlockLevel":8},
+    {"id":"sheep","productId":"wool","feedQuantity":2,"seconds":100,"unlockLevel":9},
+    {"id":"goat","productId":"goat_milk","feedQuantity":2,"seconds":95,"unlockLevel":9}
+  ],
+  "expansions": [
+    {"id":"animal_meadow","nameKey":"district.animal_meadow","requiredLevel":3,"coinCost":220},
+    {"id":"production_village","nameKey":"district.production_village","requiredLevel":5,"coinCost":600},
+    {"id":"river_orchard","nameKey":"district.river_orchard","requiredLevel":8,"coinCost":1400}
+  ],
+  "levelThresholds": [0,45,115,210,335,500,710,970,1280,1650,2100],
+  "plotUnlockLevels": [1,1,1,1,2,2,3,3,4,4,5,5,6,7,8,9],
+  "startingCoins": 120,
+  "startingGems": 10,
+  "barnCapacity": 75
+}

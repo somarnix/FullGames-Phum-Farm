@@ -1,0 +1,8 @@
+{
+  "chicken": {"product": "egg", "feed": 1, "seconds": 40, "unlock_level": 2},
+  "cow": {"product": "milk", "feed": 1, "seconds": 65, "unlock_level": 4},
+  "buffalo": {"product": "milk", "feed": 2, "seconds": 80, "unlock_level": 6},
+  "pig": {"product": "truffle", "feed": 2, "seconds": 90, "unlock_level": 8},
+  "sheep": {"product": "wool", "feed": 2, "seconds": 100, "unlock_level": 9},
+  "goat": {"product": "goat_milk", "feed": 2, "seconds": 95, "unlock_level": 9}
+}

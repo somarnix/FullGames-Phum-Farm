@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="PhumFarm.Runtime.csproj" />
+  <Project Path="PhumFarm.PlayModeTests.csproj" />
+  <Project Path="PhumFarm.EditModeTests.csproj" />
+  <Project Path="PhumFarm.Editor.csproj" />
+</Solution>

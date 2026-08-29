@@ -1,0 +1,5 @@
+{
+  "animal_meadow": {"level": 3, "cost": 220},
+  "production_village": {"level": 5, "cost": 600},
+  "river_orchard": {"level": 8, "cost": 1400}
+}

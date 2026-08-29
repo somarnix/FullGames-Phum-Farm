@@ -1,0 +1,6 @@
+{
+  "animal_feed": {"inputs": {"rice": 2}, "seconds": 18, "sell": 20},
+  "bread": {"inputs": {"rice": 3}, "seconds": 28, "sell": 38},
+  "butter": {"inputs": {"milk": 2}, "seconds": 34, "sell": 52},
+  "palm_sugar": {"inputs": {"sugarcane": 3}, "seconds": 42, "sell": 82}
+}

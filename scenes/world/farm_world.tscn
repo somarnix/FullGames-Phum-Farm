@@ -1,0 +1,55 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource path="res://scenes/world/farm_world.gd" type="Script" id="1"]
+[ext_resource path="res://scenes/world/world_environment_controller.tscn" type="PackedScene" id="2"]
+[ext_resource path="res://scenes/world/districts/terrain_district.tscn" type="PackedScene" id="3"]
+[ext_resource path="res://scenes/world/districts/starter_farm.tscn" type="PackedScene" id="4"]
+[ext_resource path="res://scenes/world/districts/crop_district.tscn" type="PackedScene" id="5"]
+[ext_resource path="res://scenes/world/districts/animal_district.tscn" type="PackedScene" id="6"]
+[ext_resource path="res://scenes/world/districts/production_district.tscn" type="PackedScene" id="7"]
+[ext_resource path="res://scenes/world/districts/market_district.tscn" type="PackedScene" id="8"]
+[ext_resource path="res://scenes/world/districts/river_orchard_district.tscn" type="PackedScene" id="9"]
+[ext_resource path="res://scenes/world/districts/expansion_district.tscn" type="PackedScene" id="10"]
+[ext_resource path="res://scenes/characters/player/player.tscn" type="PackedScene" id="11"]
+[ext_resource path="res://scenes/camera/farm_camera.tscn" type="PackedScene" id="12"]
+
+[node name="FarmWorld" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Environment" parent="." instance=ExtResource("2")]
+
+[node name="Districts" type="Node3D" parent="."]
+
+[node name="Terrain" parent="Districts" instance=ExtResource("3")]
+
+[node name="StarterFarm" parent="Districts" instance=ExtResource("4")]
+
+[node name="CropDistrict" parent="Districts" instance=ExtResource("5")]
+
+[node name="AnimalDistrict" parent="Districts" instance=ExtResource("6")]
+
+[node name="ProductionDistrict" parent="Districts" instance=ExtResource("7")]
+
+[node name="MarketDistrict" parent="Districts" instance=ExtResource("8")]
+
+[node name="RiverOrchardDistrict" parent="Districts" instance=ExtResource("9")]
+
+[node name="ExpansionDistricts" parent="Districts" instance=ExtResource("10")]
+
+[node name="Characters" type="Node3D" parent="."]
+
+[node name="Player" parent="Characters" instance=ExtResource("11")]
+position = Vector3(-18, 0.25, -13)
+
+[node name="NPCs" type="Node3D" parent="Characters"]
+
+[node name="Navigation" type="Node3D" parent="."]
+
+[node name="CameraRig" type="Node3D" parent="."]
+position = Vector3(-18, 0.25, -13)
+
+[node name="FarmCamera" parent="CameraRig" instance=ExtResource("12")]
+position = Vector3(21, 25, 21)
+projection = 1
+size = 30.0
+current = true

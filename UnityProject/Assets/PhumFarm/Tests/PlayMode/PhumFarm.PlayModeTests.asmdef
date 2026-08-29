@@ -1,0 +1,7 @@
+{
+  "name": "PhumFarm.PlayModeTests",
+  "rootNamespace": "PhumFarm.Tests",
+  "references": ["PhumFarm.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

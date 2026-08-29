@@ -1,0 +1,4 @@
+{
+  "first_harvest": {"steps": ["till", "plant_rice", "harvest_rice", "sell_goods"], "reward_coins": 50, "reward_xp": 25},
+  "grow_the_farm": {"steps": ["unlock_land", "craft_product", "feed_animal"], "reward_coins": 120, "reward_xp": 60}
+}
