@@ -1,0 +1,2 @@
+using System; using UnityEngine;
+namespace PhumFarm.Data { [CreateAssetMenu(menuName="Phum Farm/Definitions/Recipe", fileName="RecipeDefinition")] public sealed class RecipeDefinitionAsset : ScriptableObject { public string id=string.Empty; public string displayNameKey=string.Empty; public int unlockLevel=1; public float productionTime=20f; public int sellPrice; public int xpReward; public ItemRequirement[] ingredients=Array.Empty<ItemRequirement>(); public Sprite icon; } }

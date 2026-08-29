@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace PhumFarm.Data { [CreateAssetMenu(menuName="Phum Farm/Definitions/Animal", fileName="AnimalDefinition")] public sealed class AnimalDefinitionAsset : ScriptableObject { public string id=string.Empty; public string displayNameKey=string.Empty; public int unlockLevel=1; public string feedItem="animal_feed"; public int feedAmount=1; public float productionTime=45f; public string productItem=string.Empty; public int productAmount=2; public int xpReward=10; public GameObject prefab; } }

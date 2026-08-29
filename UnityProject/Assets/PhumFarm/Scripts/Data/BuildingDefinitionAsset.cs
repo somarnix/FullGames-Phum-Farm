@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace PhumFarm.Data { [CreateAssetMenu(menuName="Phum Farm/Definitions/Building", fileName="BuildingDefinition")] public sealed class BuildingDefinitionAsset : ScriptableObject { public string id=string.Empty; public string displayNameKey=string.Empty; public int unlockLevel=1; public int cost; public Vector2Int size=Vector2Int.one; public float constructionTime; public GameObject prefab; public string productionType=string.Empty; public Color fallbackColor=Color.white; } }

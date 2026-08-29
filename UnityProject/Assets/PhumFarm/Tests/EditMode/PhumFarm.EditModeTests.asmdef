@@ -1,0 +1,8 @@
+{
+  "name": "PhumFarm.EditModeTests",
+  "rootNamespace": "PhumFarm.Tests",
+  "references": ["PhumFarm.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}

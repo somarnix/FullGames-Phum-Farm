@@ -1,0 +1,2 @@
+using System; using UnityEngine;
+namespace PhumFarm.Data { [CreateAssetMenu(menuName="Phum Farm/Definitions/Crop", fileName="CropDefinition")] public sealed class CropDefinitionAsset : ScriptableObject { public string id=string.Empty; public string displayNameKey=string.Empty; public int unlockLevel=1; public int seedCost; public float growTime=30f; public int harvestAmount=3; public int xpReward=1; public int sellPrice; public Color fallbackColor=Color.green; public GameObject[] growthStagePrefabs=Array.Empty<GameObject>(); public Sprite icon; } }

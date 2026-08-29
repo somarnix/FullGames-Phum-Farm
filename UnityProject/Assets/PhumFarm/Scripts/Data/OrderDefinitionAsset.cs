@@ -1,0 +1,2 @@
+using System; using UnityEngine;
+namespace PhumFarm.Data { [CreateAssetMenu(menuName="Phum Farm/Definitions/Order", fileName="OrderDefinition")] public sealed class OrderDefinitionAsset : ScriptableObject { public string id=string.Empty; public string displayNameKey=string.Empty; public int unlockLevel=1; public OrderRequirement[] requirements=Array.Empty<OrderRequirement>(); public int coinReward; public int xpReward; public float refreshSeconds=120f; } }
